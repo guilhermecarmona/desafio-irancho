@@ -1,19 +1,21 @@
-# client
+# Client
 
-## Project setup
-```
+### 💻 Como executar
+
+Instalar dependências
+
+```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+Editar arquivo de configuração config.js e adicionar a URL do Server, exemplo:
+```bash
+export default {
+  urlRest: 'http://localhost:3000',
+};
 ```
+
+Executar
+```bash
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
